@@ -1030,6 +1030,12 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+    img{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1037,10 +1043,27 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .bloc-md{
+        align-content: center;
+    }
+    
+        img{
+            width: 100%;
+            height: auto;
+            justify-content: center;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+
+    img{
+        width: 100%;
+        height: auto;
+        justify-content: center;
     }
 }
